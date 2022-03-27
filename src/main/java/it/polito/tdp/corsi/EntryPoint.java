@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-public class EntryPoint extends Application {
+public class EntryPoint extends Application  {
 
     @Override
     public void start(Stage stage) throws Exception {
