@@ -81,7 +81,8 @@ public class FXMLController {
 
     @FXML
     void numeroStudenti(ActionEvent event) {
-	String periodo=txtPeriodo.getText();
+    	txtRisultato.clear();
+    	String periodo=txtPeriodo.getText();
     	
     	int periodoNumerico;
     	try {
@@ -102,11 +103,7 @@ public class FXMLController {
     	for(Corso c:iscritti.keySet()) {
     		txtRisultato.appendText(c+" "+ iscritti.get(c)+"\n");
     	}
-    	
-    	
-    	
-    	
-    	
+    	   	
     }
 
     @FXML
